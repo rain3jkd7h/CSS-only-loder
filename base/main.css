@@ -1,0 +1,103 @@
+@import url(./action.css);
+
+.ld-str{
+	top: 65%;
+	left: 50%;
+	margin-top: -105px;
+	margin-left: -45px;
+	display: flex;
+	width: 250px;
+	height: 25px;
+	position: relative;
+}
+
+#codeN{
+	animation: jump 4s infinite;
+}
+#codeO1{
+	animation: jump 4s infinite;
+	animation-delay: 0.25s;
+}
+#codeW{
+	animation: jump 4s infinite;
+	animation-delay: 0.5s;
+}
+#codeL{
+	animation: jump 4s infinite;
+	animation-delay: 0.75s;
+}
+#codeO2{
+	animation: jump 4s infinite;
+	animation-delay: 1s;
+}
+#codeA{
+	animation: jump 4s infinite;
+	animation-delay: 1.25s;
+}
+#codeD{
+	animation: jump 4s infinite;
+	animation-delay: 1.5s;
+}
+#codeI{
+	animation: jump 4s infinite;
+	animation-delay: 1.75s;
+}
+#code_sN{
+	animation: jump 4s infinite;
+	animation-delay: 2s;
+}
+#codeG{
+	animation: jump 4s infinite;
+	animation-delay: 2.25s;
+}
+#codeDot1{
+	animation: jump 4s infinite;
+	animation-delay: 2.5s;
+}
+#codeDot2{
+	animation: jump 4s infinite;
+	animation-delay: 2.75s;
+}
+#codeDot3{
+	animation: jump 4s infinite;
+	animation-delay: 3s;
+}
+
+
+.ld-base{
+	background: radial-gradient(black 1px,white 130px);
+	top: 50%;
+	left: 50%;
+	margin-top: -125px;
+	margin-left: -125px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.ld-anima{
+	position: absolute;
+	transform: rotate(-135deg);
+	animation:
+		rotates 2.5s infinite,
+		rainbow 10s infinite
+	;
+	width: 250px;
+	height: 240px;
+	background-color: #aaa;
+	border-radius: 72% 91% 0%/100% 90% 78%;	
+}
+
+.ld-core{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: radial-gradient(white 35px,black 130px);
+	border-radius: 50%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}

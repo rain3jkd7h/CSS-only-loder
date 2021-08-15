@@ -1,0 +1,27 @@
+@keyframes rainbow{
+	from{background-color: #f00;}
+	16.7%{background-color: #ff0;}
+	33.4%{background-color: #0f0;}
+	51.1%{background-color: #0ff;}
+	69.8%{background-color: #00f;}
+	88.5%{background-color: #f0f;}
+	to{background-color: #f00;}
+}
+
+@keyframes rotates{
+	from{transform: rotate(-135deg);}
+	to{transform: rotate(225deg);}
+}
+
+@keyframes jump{
+	from{margin-top: 0px;}
+	12.5%{
+		margin-top: -13px;
+		animation-timing-function: ease-in;
+	}
+	20%{
+		margin-top: 0px;
+		animation-timing-function: ease-out;
+	}
+	to{margin-top: 0px;}
+}
